@@ -18,7 +18,7 @@ class App extends Component {
     const BASE_URL = 'https://api.spotify.com/v1/search?';
     let FETCH_URL = `${BASE_URL}q=${this.state.query}&type=artist&limit=1`;
     const ALBUM_URL = 'https://api.spotify.com/v1/artists/';
-    var accessToken = 'BQBgy-gnfPOLCgnjB86AEtoj-W704PvMNiVKGcfBkQ2jeGBTgbiO1ZSreud0tioh4A_r1DR8ux0-LXlP9MNIojpoLZ3JGeGEfLTKuzJL9ZlNfZcT0v3zcBKFjExnBsUEjD_wT-a44ixNSlTTl2Tyki78eXKQe1quAJ2H&refresh_token=AQA-n5ClglierbHyGVc54iMe9H5RzyktQRGap8rLomUIo2IiT2z_0xBcZYQVaN64_CTXo3H8x4PAJj54sr_0ju4NEMCA_ZwDg9XVZtzCBTDU83jbXulqtrelpTelRwcLXv4';
+    var accessToken = 'BQABoUvRvMrGDvj8My1SrIGwQcJeeEYPs-PnLEKq-yG13i0_qdVieTf0I1ZK4THoqilY5Vb4t8Ww8MHAvXvtC-KGMxiYNEqanmkEfFm4rac350MO7FgBzTo5rBUr05O1EcZ9uPbmVtd-3mUbakn9EvwAC_CxL03MpeUa&refresh_token=AQBRXWGaBADLlXuqA-ojm3K9wwPBr9PMSN8J1RuU_GzhfvPkgrTsLCrcwFQvuyDdD8Is3oaRXr0MEq4kfrAk9MBwvs2GELtqdWQ1_ROowqePUGWEk_BuF4IuTvlLcf91_K4';
     var myHeaders = new Headers();
     var myOptions = {
       method: 'GET',
